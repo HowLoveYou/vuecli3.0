@@ -1,0 +1,7 @@
+1弧度 = Math.PI/180
+
+
+一、划线总结
+	1、lineWidth
+	2、lineCap  =  "buff"   "round"   "square" //帽子
+	3、lineJoin =  "miter"  "bevel"   "round"   注:miterLimit
