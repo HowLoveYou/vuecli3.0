@@ -28,6 +28,11 @@ Vue.use(BaiduMap, {
 
 Vue.config.productionTip = false;
 
+//打印
+import Print from '@/utils/print.js'
+Vue.use(Print);  //注册
+
+
 new Vue({
   router,
   store,

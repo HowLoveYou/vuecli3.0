@@ -100,6 +100,18 @@ export default new Router({
       path: '/webpack',
       name: 'webpack',
       component: _import('webpack/index')
+    },
+    //打印
+    {
+      path: '/print',
+      name: 'print',
+      component: _import('print/index')
+    },
+    //element
+    {
+    	path:'/pop',
+    	name:'pop',
+    	component: _import('element/index')
     }
   ]
 });
