@@ -7,15 +7,25 @@
     "build": "vue-cli-service build"
   },
   "dependencies": {
+    "@ckeditor/ckeditor5-build-classic": "^16.0.0",
+    "@ckeditor/ckeditor5-vue": "^1.0.1",
     "axios": "^0.19.0",
     "core-js": "^2.6.5",
     "element-ui": "^2.9.1",
+    "html2canvas": "^1.0.0-rc.5",
+    "jspdf": "^1.5.3",
+    "qrcode": "^1.4.4",
+    "vcolorpicker": "^0.1.8",
     "vue": "^2.6.10",
     "vue-baidu-map": "^0.21.22",
+    "vue-color": "^2.7.0",
     "vue-print-nb": "^1.4.0",
     "vue-router": "^3.0.3",
+    "vue-waterfall2": "^1.9.6",
     "vuedraggable": "^2.23.0",
-    "vuex": "^3.0.1"
+    "vuejs-datepicker": "^1.6.2",
+    "vuex": "^3.0.1",
+    "wangeditor": "^3.1.1"
   },
   "devDependencies": {
     "@babel/plugin-syntax-dynamic-import": "^7.2.0",

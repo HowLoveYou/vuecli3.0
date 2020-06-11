@@ -2,7 +2,7 @@
  * @Author: 马晨博
  * @Date: 2019-08-08 15:47:50
  * @Last Modified by: 马晨博
- * @Last Modified time: 2019-09-05 18:59:56
+ * @Last Modified time: 2020-04-15 19:09:56
  */
 import Vue from 'vue';
 import App from './App.vue';
@@ -30,8 +30,24 @@ Vue.config.productionTip = false;
 
 //打印
 import Print from '@/utils/print.js'
-Vue.use(Print);  //注册
+Vue.use(Print); //注册
 
+//颜色选择器
+import vcolorpicker from 'vcolorpicker'
+Vue.use(vcolorpicker)
+
+//html 转pdf
+import htmlToPdf from '@/utils/htmlToPdf'
+Vue.use(htmlToPdf)
+
+//富文本编辑器
+import CKEditor from '@ckeditor/ckeditor5-vue';
+Vue.use(CKEditor);
+
+import waterfall from 'vue-waterfall2'
+Vue.use(waterfall)
+
+require('@/mock');
 
 new Vue({
   router,

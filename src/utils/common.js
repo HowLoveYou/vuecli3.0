@@ -165,3 +165,19 @@ export function randomNum(minNum,maxNum,count,fixed,repeat) {
 	}
 	return numArr;
 }
+
+/**
+ * 深度克隆字符串和数组
+ */
+
+export function clone(obj){
+	let newObj = Array.isArray(obj)?[]:{};
+	if(obj && typeof obj ==="object"){
+		for(let key in obj){
+            if(obj.hasOwnProperty(key)){
+                newObj[key]=(obj && typeof obj[key]==='object') ? clone(obj[key]):obj[key];
+            }
+        }
+	}
+	return newObj;
+}
